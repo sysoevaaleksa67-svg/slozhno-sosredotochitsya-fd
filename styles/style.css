@@ -346,6 +346,10 @@ align-items: center;
     display: flex;
   }
 
+  .main_content-title {
+    width:315px;
+  }
+
   .main_content-section:nth-child(even) {
     gap: 20px;
     grid-auto-columns: minmax(240px, 315px);
@@ -364,9 +368,4 @@ align-items: center;
   .main_content-section:nth-child(odd) {
     grid-template-columns: 314.96px auto;
   }
-
-
-  .main_content-title {
-    width:315px;
-  }
-}}
+}
